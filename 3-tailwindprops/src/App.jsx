@@ -43,19 +43,19 @@ function App() {
         username="Hogwart Letter"
         image={Day1}
         btnText="Click ME"
-        aboutMe="hii, I'm Arbab Ali I Am a Software Developer And Currently I am Working With The Project Named As The Tasty Bowl"
+        aboutMe="offer letter mil gya"
       />
       <Card
         username="Me & Hermoine"
          image={Day2}
         btnText="Visit ME"
-        aboutMe=" The tasty Bowl is One Of the Best Food Ordering Website Develop By Mr Arbab Ali In This App We Deliverd All Categries of Food "
+        aboutMe="First Meet"
       />
        <Card
         username="Its Flying Time"
          image={Day3}
         btnText="Visit ME"
-        aboutMe=" The tasty Bowl is One Of the Best Food Ordering Website Develop By Mr Arbab Ali In This App We Deliverd All Categries of Food "
+        aboutMe=" When At the Time Of Flying "
       />
        <Card
         username="First Fight"
