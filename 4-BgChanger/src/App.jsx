@@ -67,12 +67,20 @@ function App() {
             >
               Indigo
             </button>
+            
              <button
               onClick={() => setColor("black")}
               className="outline-none px-7 py-3 rounded-full text-white shadow-2xl"
               style={{ backgroundColor: "black" }}
             >
               black
+            </button>
+            <button
+              onClick={() => setColor("teal")}
+              className="outline-none px-7 py-3 rounded-full text-white shadow-2xl"
+              style={{ backgroundColor: "teal" }}
+            >
+              teal
             </button>
             
           </div>
