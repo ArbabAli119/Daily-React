@@ -20,6 +20,7 @@ function customRender(reactElement, container) {
 const reactElement = {
   type: "a",
   props: {
+    Text: "See My Website",
     href: "https://google.com",
     target: "_blank",
   },
