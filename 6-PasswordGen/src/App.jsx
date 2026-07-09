@@ -6,7 +6,9 @@ function App() {
 
   return (
     <>
-      <h1>Random Pasword Generator</h1>
+      <h1 className='text-4xl text-center text-white'>
+        Random Pasword Generator
+      </h1>
     </>
   )
 }
