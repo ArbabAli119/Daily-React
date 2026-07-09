@@ -61,7 +61,7 @@ function App() {
         username="First Fight"
          image={Day4}
         btnText="Visit ME"
-        aboutMe=" The tasty Bowl is One Of the Best Food Ordering Website Develop By Mr Arbab Ali In This App We Deliverd All Categries of Food "
+        aboutMe="First Fight in Hogwarts, "
       />
     </div>
     </>
