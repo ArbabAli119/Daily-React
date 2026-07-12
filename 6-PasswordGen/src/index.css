@@ -1,2 +1,35 @@
 @import "tailwindcss";
 
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Smooth Slider */
+
+input[type="range"] {
+  height: 8px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 9999px;
+  background: #06b6d4;
+  cursor: pointer;
+  border: 3px solid white;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 9999px;
+  background: #06b6d4;
+  cursor: pointer;
+  border: 3px solid white;
+}
