@@ -90,7 +90,7 @@ function App() {
         </button>
         <button
           onClick={() => setImage(img10)}
-          className="bg-pink-500 text-white px-4 py-2 rounded-lg"
+          className="bg-fuchsia-900 text-white px-4 py-2 rounded-lg"
         >
           Fantastic Four
         </button>

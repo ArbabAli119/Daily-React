@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <h1>Chai With Arbab</h1>
+      <h1>Code With Arbab</h1>
       <h2>Counter Value : {counter} </h2>
 
       <button onClick={addValue}>Add Value</button>
