@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './App.css'
+import "./App.css";
 import img1 from "./assets/1TonyDoom.jpg";
 import img2 from "./assets/2TeamThor.jpg";
 import img3 from "./assets/3Thor.png";
@@ -14,23 +14,17 @@ import img11 from "./assets/11DrStrange.jpg";
 import img12 from "./assets/12Panther.jpg";
 import img13 from "./assets/13Wolvarine.jpg";
 
-
 function App() {
   const [image, setImage] = useState(img1);
 
   return (
     <div className="w-full min-h-screen flex flex-col justify-center items-center bg-teal-300 px-4 py-6 gap-5">
-
-    <div className="w-full max-w-9xl h-[80vh] border-4 rounded-xl overflow-hidden shadow-xl">
-        <img
-          src={image}
-          alt="Preview"
-          className="w-full h-full object-cover"
-        />
+      <div className="w-full max-w-9xl h-[80vh] border-4 rounded-xl overflow-hidden shadow-xl">
+        <img src={image} alt="Preview" className="w-full h-full object-cover" />
       </div>
 
-          <div className="w-full flex flex-wrap justify-center gap-2 px-4">
-          <button
+      <div className="w-full flex flex-wrap justify-center gap-2 px-4">
+        <button
           onClick={() => setImage(img1)}
           className="bg-red-500 text-white px-4 py-2 rounded-lg "
         >
@@ -50,7 +44,7 @@ function App() {
         >
           Thor
         </button>
-      
+
         <button
           onClick={() => setImage(img4)}
           className="bg-yellow-500 text-white px-4 py-2 rounded-lg"
@@ -69,7 +63,7 @@ function App() {
         >
           Iron Man
         </button>
-       
+
         <button
           onClick={() => setImage(img7)}
           className="bg-blue-500 text-white px-4 py-2 rounded-lg"
@@ -106,15 +100,13 @@ function App() {
         >
           Black Panther
         </button>
-         <button
+        <button
           onClick={() => setImage(img13)}
           className="bg-purple-500 text-white px-4 py-2 rounded-lg"
         >
           Wolvarine
         </button>
-
       </div>
-
     </div>
   );
 }
