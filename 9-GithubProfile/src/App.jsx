@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <h1>GithubProfile</h1>
+      <h1>Github-Profile</h1>
       <input
         type="number"
         value={count}
